@@ -62,7 +62,7 @@ Apri `index.html` in un browser (nessuna build, nessuna dipendenza).
 
 ## Screenshot
 
-`assets/img/screenshot.png` (da aggiornare quando pronto).
+![Anteprima pagina portfolio](assets/img/screenshot.png)
 
 ## License / Uso
 
