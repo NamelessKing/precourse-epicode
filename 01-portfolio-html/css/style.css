@@ -1,0 +1,42 @@
+/* Intermediate simplified stylesheet */
+* { box-sizing: border-box; }
+body { margin:0; padding:16px; font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; line-height:1.5; color:#111; background:#fff; }
+
+/* Layout */
+.section, .site-header, .site-footer { max-width:68ch; margin:24px auto; padding:0 8px; }
+.site-header { margin-top:0; }
+.tagline { margin:4px 0 12px; font-size:1rem; }
+
+/* Headings & text */
+h1 { font-size:2rem; margin:16px 0 8px; }
+h2 { font-size:1.25rem; margin:24px 0 8px; }
+p, li { font-size:1rem; }
+
+/* Navigation */
+nav ul { list-style:none; padding:0; display:flex; gap:12px; flex-wrap:wrap; }
+nav a { text-decoration:none; color:#004080; }
+nav a:hover, nav a:focus { text-decoration:underline; }
+
+/* Skip link */
+.skip-link { position:absolute; left:-999px; top:0; background:#000; color:#fff; padding:8px 12px; }
+.skip-link:focus { left:8px; }
+
+/* Media & figure */
+figure { margin:16px 0; }
+img { display:block; max-width:100%; height:auto; border-radius:4px; }
+
+/* Lists */
+ul { padding-left:20px; }
+
+/* Table */
+table { width:100%; border-collapse:collapse; margin:12px 0 0; font-size:0.95rem; }
+caption { text-align:left; font-weight:600; margin-bottom:6px; }
+th, td { border:1px solid #ccc; padding:6px 8px; text-align:left; }
+tbody tr:nth-child(odd) { background:#fafafa; }
+
+/* Address & footer */
+address { font-style:normal; }
+.site-footer { margin-top:32px; padding-top:12px; border-top:1px solid #ccc; font-size:0.85rem; text-align:center; color:#333; }
+
+/* Focus visibility (simple) */
+:focus { outline:2px solid #1d6ce0; outline-offset:2px; }
